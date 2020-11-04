@@ -36,3 +36,54 @@
         align-items: flex-end;
     }
 }
+
+
+
+@media(max-width:1000px){
+    .header{
+        &__logo{
+            width: 33%;
+        }
+        &__official{
+            width: 33%;
+            font-size: 12px;
+            span{
+                font-size: 14px;
+            }
+        }
+        &__contacts{
+            width: 33%;
+        }
+        &__phone{
+            font-size: 14px;
+        }
+    }
+}
+
+@media(max-width:600px){
+    .header{
+        &__official{
+            font-size:10px;
+            span{
+                font-size: 12px;
+            }
+        }
+        &__phone{
+            font-size: 12px;
+        }
+    }
+}
+
+@media(max-width:400px){
+    .header{
+        &__official{
+            font-size:9px;
+            span{
+                font-size: 10px;
+            }
+        }
+        &__phone{
+            font-size: 10px;
+        }
+    }
+}

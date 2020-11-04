@@ -2,12 +2,23 @@
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/button';
+@import 'blocks/pluses';
+@import 'blocks/consultation';
+@import 'blocks/title';
+@import 'blocks/forms';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
+    margin: 0;
 }
 
 .container {
     max-width: 950px;
     margin: 0 auto;
+}
+
+@media(max-width:1000px){
+    .container{
+        max-width: 85%;
+    }
 }
