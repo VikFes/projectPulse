@@ -7,8 +7,12 @@
 @import 'blocks/title';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/testemonial';
+@import 'blocks/footer';
 
 * {
+    box-sizing: border-box;
     font-family: 'Museo Sans Cyrl', sans-serif;
     margin: 0;
 }

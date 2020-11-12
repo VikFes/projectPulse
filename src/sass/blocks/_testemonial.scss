@@ -1,0 +1,33 @@
+.testemonial{
+    margin-bottom: 70px;
+    &__obj{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        :last-child{
+            margin-bottom: 0px;
+        }
+    }
+    &__img{
+        width: 169px;
+        height: 169px;
+        margin-right: 69px;
+    }
+    &__name{
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        margin-bottom: 11px;
+    }
+    &__subtitle{
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        margin-bottom: 19px;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
