@@ -39,6 +39,11 @@
             font-weight: 500;
         }
     }
+    &__icon{
+        &_anim{
+            animation: heartbeat 2s ease infinite;
+        }
+    }
 
 }
 

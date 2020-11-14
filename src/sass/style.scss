@@ -1,4 +1,9 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
 @import 'base/variables';
+@import 'base/animation';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/button';
@@ -11,6 +16,8 @@
 @import 'blocks/testemonial';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/pageup';
+
 
 * {
     box-sizing: border-box;
